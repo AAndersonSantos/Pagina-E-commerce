@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600&family=Esteban&family=Domine:wght@500&display=swap');
+
+body {
+  background: #F5F5F5;
+}
+
+.primeiro-titulo {
+  font-size: 20px;
+  font-family: Alegreya;
+  text-align: center;
+  padding-left: 10px;
+}
+
+.segundo-titulo {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666666;
+  text-align: start;
+  padding-left: 50px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.container-card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  top: 1%;
+  right: 10%;
+  height: 790px;
+  background: #F5F5F5;
+}
+
+.card-preco {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 170px;
+  background: white;
+  text-align: center;
+  box-shadow: 0 2px 20px #d4d4d4;
+}
+
+.linha-horizontal-1 {
+  margin-left: 40px;
+  width: 400px;
+  border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.linha-horizontal-2 {
+  margin-top: 5px;
+  margin-left: 13px;
+  width: 320px;
+  border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.container-btn {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  margin-left: 6%;
+  font: normal 15px Roboto;
+}
+
+.container-btn label {
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+.container-btn div label input[type="checkbox"] {
+  display: none;
+}
+
+.container-btn div label span {
+  background: #fff;
+  display: inline-block;
+  position: relative;
+  padding: 10px 25px;
+  border-radius: 30px;
+  user-select: none;
+}
+
+.container-btn div label span:before {
+  content: ' ';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.container-btn div label span:hover {
+  background: transparent linear-gradient(270deg, #80D6B5 0%, #89C993 100%) 0% 0% no-repeat padding-box;
+  color: #fff;
+  transform: scale(0.90);
+}
+
+.container-btn div label input[type="checkbox"]:checked~span {
+  background: transparent linear-gradient(270deg, #80D6B5 0%, #89C993 100%) 0% 0% no-repeat padding-box;
+  color: #fff;
+}
+
+.container-preco-desconto {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 80px;
+  background: white;
+  text-align: center;
+}
+
+.total {
+  color: black;
+  text-align: start;
+  width: 40%;
+  border: none;
+  background: white;
+  margin-left: 70px;
+  margin-top: 8px;
+  font: bold 20px Roboto;
+}
+
+.desconto {
+  position: absolute;
+  color: black;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font: bold 12px Roboto;
+  width: 10%;
+  border-radius: 10px;
+  background: white;
+}
+
+.text-preco {
+  margin-top: 5px;
+  margin-left: 13px;
+  text-align: start;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666666;
+}
+
+.container-preco {
+  margin-left: 12px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  background: white;
+  text-align: center;
+}
+
+.preco-atual {
+  text-align: start;
+  font: bold 20px Roboto;
+  margin-top: 5px;
+  height: 20px;
+  width: 40%;
+  background: white;
+  margin-left: 5px;
+  border: none;
+}
+
+.preco-anterior {
+  text-align: center;
+  font: bold 20px Roboto;
+  color: #999999;
+  margin-top: 5px;
+  height: 20px;
+  width: 27%;
+  background: white;
+  margin-left: 0px;
+  border: none;
+  text-decoration: line-through;
+}
+
+.text-parcelas {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+  color: #666666;
+  margin-top: -10px;
+}
+
+.text-parcelas span{
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-preco p{
+  margin-left: 0px;
+  color: #666666;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.parcelas {
+  color: #666666;
+  text-align: start;
+  font: bold 11px Arial;
+  width: 13%;
+  border: none;
+  background: white;
+  margin-left: 5px;
+}
+
+.text-parcelas {
+  margin-left: 13px;
+}
+
+.container-button {
+  display: flex;
+  flex-direction: row;
+  margin-left: 75px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-mais {
+  border-radius: 0px 30px 30px 0px;
+  height: 40px;
+  width: 40px;
+  border: none;
+  background: #fff;
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+}
+
+.btn-mais:hover {
+  transform: scale(0.96);
+}
+
+.btn-menos {
+  border-radius: 30px 0px 0px 30px;
+  height: 40px;
+  width: 40px;
+  border: none;
+  background: #fff;
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+}
+
+.btn-menos:hover {
+  transform: scale(0.96);
+}
+
+.format {
+  height: 38px;
+  width: 20%;
+  text-align: center;
+  border: none;
+  outline: 0;
+  background: #fff;
+  font-size: 19px;
+  color: black;
+}
+
+.btn-comprar {
+  border-radius: 30px;
+  width: 155px;
+  margin-left: 15px;
+  background: transparent linear-gradient(270deg, #80D6B5 0%, #89C993 100%) 0% 0% no-repeat padding-box;
+  border: none;
+  cursor: pointer;
+  font: normal bold 20px Roboto;
+  color: #fff;
+}
+
+.btn-comprar:hover {
+  transform: scale(0.98);
+}
+
+.text-comprar-mais {
+  text-align: center;
+  text-decoration: underline;
+  color: #4CA871;
+  font: normal normal normal 18px/28px Roboto;
+  cursor: pointer;
+}
+
+/*------------------------------------ container CEP -------------------------------*/
+.container-cep {
+  margin-top: 20px;
+  margin-left: 70px;
+  height: 120px;
+  width: 350px;
+  background: #fff;
+  box-shadow: 0 2px 20px #d4d4d4;
+}
+
+.container-cep input {
+  width: 240px;
+  height: 37px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 17px;
+  border: 2px solid #999999;
+  outline: 0;
+  border-radius: 30px;
+}
+
+.container-cep button {
+  width: 125px;
+  height: 43px;
+  margin-left: -47px;
+  border-radius: 30px;
+  margin-top: 60px;
+  color: #fff;
+  background: black;
+  border: 6px solid black;
+  font: normal normal normal 16px/28px Roboto;
+  cursor: pointer;
+}
+
+.container-cep button:hover {
+  transform: scale(0.98);
+}
+
+.container-cep a {
+  text-decoration: underline;
+  margin-left: 225px;
+  margin-top: 15px;
+  color: #999999;
+  position: absolute;
+  font-size: 14px;
+}
+
+.container-cep a:hover {
+  color: black;
+}
+
+.container-cep span {
+  font: normal bold 15px Roboto;
+  margin-left: 12px;
+  margin-top: 15px;
+  color: black;
+  position: absolute;
+  font-size: 14px;
+}
+
+/*------------------------------------ container Detalhes -------------------------------*/
+.container-detalhes {
+  margin-top: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  position: static;
+  width: 100%;
+  height: 157px;
+  background: transparent linear-gradient(270deg, #80D6B5 0%, #89C993 100%) 0% 0% no-repeat padding-box;
+}
+
+.container-detalhes span {
+  font: normal normal bold 20px/24px Raleway;
+  color: #FFFFFF;
+  margin-top: 70px;
+  margin-right: 20px;
+}
+
+.linha-vertical {
+  height: 80px;
+  border-right: 1px solid #FFFFFF;
+  margin-top: 42px;
+  margin-left: 40px;
+}
+
+.detalhes-img-1 {
+  margin-top: 35px;
+  margin-left: 90px;
+  text-align: left;
+  padding: 20px;
+}
+
+.detalhes-img-2 {
+  margin-left: 50px;
+  margin-top: 35px;
+  text-align: left;
+  padding: 20px;
+}
+
+.detalhes-img-3 {
+  margin-left: 50px;
+  margin-top: 35px;
+  text-align: left;
+  padding: 20px;
+}
+
+.detalhes-img-4 {
+  margin-left: 50px;
+  margin-top: 35px;
+  text-align: left;
+  padding: 20px;
+}
+
+.detalhes-img-5 img {
+  width: 100%;
+}
+
+.detalhes-text h1 {
+  margin-left: 80px;
+  text-align: start;
+  font-family: Domine;
+  font-size: 35px;
+  letter-spacing: 0px;
+  color: black;
+}
+
+.detalhes-text p {
+  margin-left: 80px;
+  text-align: start;
+  font-family: Esteban;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: black;
+}
+
+/*---------------------------------- container-avaliação ------------------------*/
+.titulo-avaliacao {
+  display: flex;
+  flex-direction: row;
+  color: rgb(0, 0, 0);
+  margin-left: 100px;
+}
+
+.linha-horizontal-3 {
+  margin-left: 20px;
+  margin-bottom: 40px ;
+  width: 400px;
+  border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.titulo-avaliacao h1 {
+  font-family: Domine;
+  font-size: 35px;
+  margin-left: -30px;
+}
+
+.titulo-avaliacao .text1 {
+  margin-top: 30px;
+  margin-left: 20px;
+  color: rgb(196, 196, 196)
+}
+
+.titulo-avaliacao .text2 {
+  margin-top: 38px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+}
+
+.titulo-avaliacao img {
+  margin-left: 15px;
+  font-size: 17px;
+}
+
+.item h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.item span {
+  margin-left: 30%;
+  display: flex;
+  flex-direction: row;
+  width: 20px;
+}
+
+.owl-theme .item {
+  text-align: center;
+  background: #fff;
+  padding: 10px;
+}
+

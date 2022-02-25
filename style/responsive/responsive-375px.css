@@ -1,0 +1,202 @@
+@media screen and (max-width: 375px) {
+
+    .swiper { /*------------------------------------ carrousel -------------------------------*/
+        width: 65%;
+        height: 90px;
+        margin-left: 20%;
+        border-radius: 400px;
+    }
+
+    .mySwiper2 {
+        height: 80%;
+        width: 80%;
+        margin-left: 12%;
+    }
+
+    .container-card { /*------------------------------------ Container Card -------------------------------*/
+        width: 100%;
+        margin-left: 0px;
+        height: 700px;
+    }
+
+    .card-preco {
+        margin-left: 0px;
+        height: 150px;
+        width: 360px;
+        margin-right: 0;
+    }
+
+    .primeiro-titulo {
+        margin-left: 0;
+        font-size: 15px;
+    }
+
+    .linha-horizontal-1 {
+        display: none;
+    }
+
+    .segundo-titulo {
+        padding-left: 0px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .desconto {
+        width: 12%;
+    }
+
+    .container-btn div label span {
+        padding: 10px 20px;
+    }
+
+    .container-btn {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    .container-button {
+        margin-left: 0px;
+    }
+
+    .format {
+        width: 90px;
+    }
+
+    .btn-comprar {
+        width: 190px;
+    }
+
+    .text-comprar-mais {
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .container-cep {
+        height: 135px;
+        width: 360px;
+        margin-left: 0px;
+    }
+
+    .container-cep input {
+        margin-left: 15px;
+    }
+
+    .container-cep a {
+        margin-left: 230px;
+    }
+
+    .container-cep span {
+        margin-left: 20px;
+    }
+
+    .container-detalhes { /*------------------------------------ Container Detalhes -------------------------------*/
+        margin-top: 0px;
+        height: 257px;
+    }
+
+    .container-detalhes span {
+        font: normal normal bold 17px/23px Raleway;
+    }
+
+    .container-detalhes .linha-vertical, .linha-vertical2, .linha-vertical3 {
+        display: none;
+    }
+
+    .detalhes-img-1 {
+        margin-top: 25px;
+        margin-left: -5px;
+        text-align: left;
+        padding: 20px;
+    }
+
+    .container-detalhes .sem-glúten {
+        margin-top: 53px;
+        margin-left: 40px;
+    }
+
+    .detalhes-img-2 img {
+        position: absolute;
+        display: block;
+        margin-top: -10px;
+        margin-left: -30px;
+    }
+
+    .container-detalhes .organico {
+        margin-top: 65px;
+        margin-left: 18px;
+    }
+
+    .detalhes-img-3 {
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .detalhes-img-3 img{
+        margin-left: -13px;
+        margin-top: 125px;
+    }
+
+    .container-detalhes .low-carb {
+        position: absolute;
+        display: block;
+        margin-top: 180px;
+        margin-left: 90px;
+    }
+
+    .detalhes-img-4 {
+        margin-left: 0px;
+        margin-top: 5px;
+        padding: 0px;
+    }
+
+    .detalhes-img-4 img {
+        margin-left: -160px;
+        margin-top: 150px;
+    }
+
+    .container-detalhes .sem-lacteos {
+        position: absolute;
+        display: block;
+        margin-top: 170px;
+        margin-left: 260px;
+    }
+
+    .detalhes-img-5 img {
+        display: block;
+        margin-top: 0px;
+    }
+
+    .linha-horizontal3 {
+        width: 0px;
+    }
+
+    .detalhes-text h1 {
+        margin-left: 10px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .detalhes-text p {
+        margin-left: 30px;
+        font-size: 14px;
+    }
+
+    .titulo-avaliacao h1 { /*------------------------------------ Titulo Avaliacao -------------------------------*/
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .titulo-avaliacao .text2 {
+        display: none;
+    }
+
+    .titulo-avaliacao img {
+        display: none;
+    }
+
+    .linha-horizontal3 {
+        display: none;
+    }
+
+}

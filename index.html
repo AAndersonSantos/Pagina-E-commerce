@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/swiper-carousel/style.css">
+  <link rel="stylesheet" href="./style/responsive/responsive-768px.css">
+  <link rel="stylesheet" href="./style/responsive/responsive-375px.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Frontend-Page</title>
+</head>
+
+<body>
+
+  <!--Carousel Swiper 1-->
+  <div class="swiper mySwiper2">
+
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="./img/Grupo 258.png" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/Grupo 258.png" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/Grupo 258.png" />
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+  </div>
+
+  <div class="swiper mySwiper">
+
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="./img/Grupo 258.png" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/Grupo 258.png" />
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/Grupo 258.png" />
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-card">
+
+    <div class="primeiro-titulo">
+      <h1>Óleo de coco Extra Virgem Extraido da Película do Coco Santo Óleo</h1>
+    </div>
+    <div class="linha-horizontal-1"></div>
+
+    <div class="segundo-titulo">
+      <span>Selecione uma das opções abaixo</span>
+    </div>
+
+    <div class="container-btn">
+      <div>
+        <label>
+          <input type="checkbox" id="Check1" value="Value1" onclick="selectOnlyThis(this.id)" /> <span>200 ml</span>
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" id="Check2" value="Value1" onclick="selectOnlyThis(this.id)" /> <span> 400 ml</span>
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" id="Check3" value="Value1" onclick="selectOnlyThis(this.id)" /> <span>1 L</span>
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" id="Check4" value="Value1" onclick="selectOnlyThis(this.id)" /> <span>2 L</span>
+        </label>
+      </div>
+
+    </div>
+
+    <div class="card-preco">
+
+      <div class="container-preco-desconto">
+        <input class="desconto" type="text" name="desconto" />
+        <input class="total" type="text" name="total" disabled/>
+        <p class="text-preco">Via Boleto, PIX e transferência</p>
+        <div class="linha-horizontal-2"></div>
+      </div>
+
+      <div class="container-preco">
+        <p class="text-js-1">de</p><input class="preco-anterior" type="text" name="preco-anterior"/>
+        <p class="text-js-2">por</p><input class="preco-atual" type="text" name="preco-atual" />
+      </div>
+
+      <div class="text-parcelas">
+        <span >ou em 3X de </span><input class="parcelas" type="text" name="parcelas"/><span class="span-text-parcelas"> sem juros</span>
+      </div>
+
+    </div>
+    
+    <div class="container-button">
+      <button class="btn-menos" type="submit" onclick="menos()">-</button>
+      <input type="text" name="format" value="1" class="format" disabled/>
+      <button class="btn-mais" type="submit" onclick="mais()">+</button>
+      <button class="btn-comprar">Comprar</button>
+    </div>
+    
+    <a class="text-comprar-mais">Quer comprar em grandes quantidades? Temos um desconto especial!</a>
+
+    <div class="container-cep">
+      <span>Calcule o frete</span>  <a href="https://buscacepinter.correios.com.br/app/localidade_logradouro/index.php" target="_blank">Não sei meu CEP</a>
+      <input class="cep" type="text" placeholder="Digite seu CEP" name="cep" onkeypress="$(this).mask('00000-000')" />
+      <button>Calcular</button>
+    </div>
+
+  </div>
+
+  <div class="container-detalhes">
+
+    <div class="detalhes-img-1">
+      <img src="./img/gluten-free.svg" /> 
+    </div>
+    <span class="sem-glúten">Sem Glúten </span> 
+    <div class="linha-vertical"></div>
+
+    <div class="detalhes-img-2">
+      <img src="./img/002-plant-based.svg" /> 
+    </div>
+    <span class="organico">Orgânico</span>
+    <div class="linha-vertical"></div>
+    
+    <div class="detalhes-img-3">
+      <img src="./img/Grupo 21.svg" /> 
+    </div>
+    <span class="low-carb">LowCarb</span>
+    <div class="linha-vertical"></div>
+
+    <div class="detalhes-img-4">
+      <img src="./img/Grupo 22.svg" /> 
+    </div>
+    <span class="sem-lacteos">Sem Lácteos</span>
+
+  </div>
+  
+  <div class="detalhes-img-5">
+    <img src="./img/NoPath - Copia (5).png" /> 
+  </div>
+
+  <div class="detalhes-text">
+    <h1>Detalhes do produto</h1>
+      <p>O Santo Óleo de Coco Virgem é um produto 100% natural e obtido através da parte branca carnosa e da película marrom. Sua coloração é um pouco amarelada e sua acidez máxima é de 0 5%. Indicação de uso: Preparação de alimentos quentes como bolos tortas arroz frituras etc.</p> 
+      <p>- Sem conservantes e/ou produtos químicos.</p>  
+      <p>- Não contém glúten.</p>
+      <p>- Prensado à frio.</p>
+      <p>- Acidez abaixo de 0 5%.</p>
+      <p>- Extraído da polpa da fruta.</p>
+      <p>- Não refinado e não hidrogenado.</p></p>
+  </div>
+
+  <div class="titulo-avaliacao">
+    <h1>Opinião de quem comprou</h1><div class="linha-horizontal-3"></div> 
+    <span class="text2"> (28 Avaliações) </span>
+    <img src="./img/Icon feather-star.svg">
+    <img src="./img/Icon feather-star.svg">
+    <img src="./img/Icon feather-star.svg">
+    <img src="./img/Icon feather-star.svg">
+    <img src="./img/Icon feather-star (1).svg">
+  </div>
+
+  <!--Carousel Swiper 2-->
+  <div class="owl-carousel owl-theme">
+    
+    <div class="item">
+      <h4>Joelma Campanhol</h4>
+      <span>
+        <img src="./img/Icon feather-star.svg"> 
+        <img src="./img/Icon feather-star.svg">
+        <img src="./img/Icon feather-star.svg">
+        <img src="./img/Icon feather-star.svg">
+        <img src="./img/Icon feather-star.svg">
+      </span>
+      <p>"Acabei de comprar ansiosa que chegue logo aliás estou viciada na Ingredientes Online tudo maravilhoso"</p>
+      <p>24/12/2020</p>
+    </div>
+    <div class="item">
+      <h4>Kelly</h4>
+      <span>
+        <img src="./img/Icon feather-star.svg"> 
+        <img src="./img/Icon feather-star.svg">
+        <img src="./img/Icon feather-star.svg">
+        <img src="./img/Icon feather-star.svg">
+        <img src="./img/Icon feather-star.svg">
+      </span>
+      <p>"Maravilhoso! sem dúvidas, o melhor do mercado. sem retrogosto e dissolve facilmente."</p>
+      <p>20/01/2021</p>
+    </div>
+    <div class="item">
+      <h4>Luca Chaves</h4>
+      <span>
+        <img src="./img/Icon feather-star.svg"> 
+        <img src="./img/Icon feather-star.svg">
+        <img src="./img/Icon feather-star.svg">
+        <img src="./img/Icon feather-star.svg">
+        <img src="./img/Icon feather-star.svg">
+      </span>
+      <p>"Produto ótimo na semana já sente-se os resultados."</p>
+      <p>24/12/2020</p>
+    </div>
+      <div class="item">
+        <h4>Maristela Miro</h4>
+        <span>
+          <img src="./img/Icon feather-star.svg"> 
+          <img src="./img/Icon feather-star.svg">
+          <img src="./img/Icon feather-star.svg">
+          <img src="./img/Icon feather-star.svg">
+          <img src="./img/Icon feather-star.svg">
+        </span>
+        <p>"Gostei muito do produto o cheiro é maravilhoso vou comprar novamente."</p>
+        <p>10/08/2021</p>
+      </div>
+      <div class="item">
+        <h4>Franciele Sophia</h4>
+        <span>
+          <img src="./img/Icon feather-star.svg"> 
+          <img src="./img/Icon feather-star.svg">
+          <img src="./img/Icon feather-star.svg">
+          <img src="./img/Icon feather-star.svg">
+          <img src="./img/Icon feather-star (1).svg">
+        </span>
+        <p>"Ótimo produto veio bem embalado eu recomendo. Vou fazer Nova compra sim."</p>
+        <p>16/09/2021</p>
+    </div>
+    <div class="item">
+      <h4>Otavio Filho</h4>
+        <span>
+          <img src="./img/Icon feather-star.svg"> 
+          <img src="./img/Icon feather-star.svg">
+          <img src="./img/Icon feather-star.svg">
+          <img src="./img/Icon feather-star.svg">
+          <img src="./img/Icon feather-star.svg">
+        </span>
+        <p>"Chegou tudo certinho e a entrega foi super rápida. Ótima experiência!"</p>
+        <p>07/011/2021</p>
+    </div>
+    
+</div>
+  
+</body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/owl-carousel/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+
+</html>
