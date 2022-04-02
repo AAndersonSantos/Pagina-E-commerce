@@ -29,8 +29,6 @@
     text-align: center;
     font-size: 18px;
     background: #fff;
-  
-    
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -56,7 +54,7 @@
     width: 20%;
     height: 300px;
     margin-left: 20%;
-    border-radius: 400px;
+    border-radius: 10px;
   }
   
   .swiper-slide {
@@ -69,7 +67,7 @@
     height: 38%;
     width: 38%;
     margin-left: 12%;
-    border-radius: 400px;
+    border-radius: 40px;
     box-shadow: 0 2px 20px #d4d4d4;
   }
   
@@ -81,9 +79,9 @@
   
   .mySwiper .swiper-slide {
     width: 25%;
-    height: 100%;
+    height: 85%;
     opacity: 0.4;
-    border-radius: 400px;
+    border-radius: 10px;
   }
   
   .mySwiper .swiper-slide-thumb-active {
@@ -95,5 +93,5 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 400px;
+    border-radius: 10px;
   }

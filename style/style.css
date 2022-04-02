@@ -16,7 +16,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #666666;
   text-align: start;
-  padding-left: 50px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 15px;
   margin-top: 15px;
 }
@@ -46,8 +47,9 @@ body {
 }
 
 .linha-horizontal-1 {
-  margin-left: 40px;
-  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   border-bottom: 1px solid rgb(196, 196, 196);
 }
 
@@ -62,13 +64,14 @@ body {
   display: flex;
   flex-direction: row;
   height: 40px;
-  margin-left: 6%;
+  margin-left: auto;
+  margin-right: auto;
   font: normal 15px Roboto;
 }
 
 .container-btn label {
   cursor: pointer;
-  margin-left: 16px;
+  margin-left: 7px;
 }
 
 .container-btn div label input[type="checkbox"] {
@@ -130,7 +133,7 @@ body {
   margin-top: 10px;
   text-align: center;
   font: bold 12px Roboto;
-  width: 10%;
+  width: 45px;
   border-radius: 10px;
   background: white;
 }
@@ -215,9 +218,11 @@ body {
 .container-button {
   display: flex;
   flex-direction: row;
-  margin-left: 75px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 350px;
 }
 
 .btn-mais {
@@ -252,7 +257,7 @@ body {
 
 .format {
   height: 38px;
-  width: 20%;
+  width: 25%;
   text-align: center;
   border: none;
   outline: 0;
@@ -263,7 +268,7 @@ body {
 
 .btn-comprar {
   border-radius: 30px;
-  width: 155px;
+  width: 170px;
   margin-left: 15px;
   background: transparent linear-gradient(270deg, #80D6B5 0%, #89C993 100%) 0% 0% no-repeat padding-box;
   border: none;
@@ -287,7 +292,8 @@ body {
 /*------------------------------------ container CEP -------------------------------*/
 .container-cep {
   margin-top: 20px;
-  margin-left: 70px;
+  margin-left: auto;
+  margin-right: auto;
   height: 120px;
   width: 350px;
   background: #fff;
@@ -347,55 +353,84 @@ body {
 /*------------------------------------ container Detalhes -------------------------------*/
 .container-detalhes {
   margin-top: 200px;
-  text-align: center;
   display: flex;
   flex-direction: row;
-  position: static;
   width: 100%;
-  height: 157px;
+  height: 160px;
   background: transparent linear-gradient(270deg, #80D6B5 0%, #89C993 100%) 0% 0% no-repeat padding-box;
 }
 
 .container-detalhes span {
   font: normal normal bold 20px/24px Raleway;
   color: #FFFFFF;
-  margin-top: 70px;
-  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.container-detalhes img {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
 }
 
 .linha-vertical {
   height: 80px;
   border-right: 1px solid #FFFFFF;
-  margin-top: 42px;
-  margin-left: 40px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.container-card-detalhes-1{
+  margin-left: auto;
+  width: 500px;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.container-card-detalhes-2{
+  margin-right: auto;
+  width: 480px;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
 }
 
 .detalhes-img-1 {
-  margin-top: 35px;
-  margin-left: 90px;
-  text-align: left;
-  padding: 20px;
+  padding-top: 20px;
+  text-align: center;
+  width: 260px;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
 }
 
 .detalhes-img-2 {
-  margin-left: 50px;
-  margin-top: 35px;
-  text-align: left;
-  padding: 20px;
+  padding-top: 20px;
+  text-align: center;
+  width: 240px;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
 }
 
 .detalhes-img-3 {
-  margin-left: 50px;
-  margin-top: 35px;
-  text-align: left;
-  padding: 20px;
+  padding-top: 20px;
+  text-align: center;
+  width: 240px;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
 }
 
 .detalhes-img-4 {
-  margin-left: 50px;
-  margin-top: 35px;
-  text-align: left;
-  padding: 20px;
+  padding-top: 20px;
+  text-align: center;
+  width: 240px;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
 }
 
 .detalhes-img-5 img {
@@ -403,8 +438,7 @@ body {
 }
 
 .detalhes-text h1 {
-  margin-left: 80px;
-  text-align: start;
+  text-align: center;
   font-family: Domine;
   font-size: 35px;
   letter-spacing: 0px;
@@ -412,7 +446,7 @@ body {
 }
 
 .detalhes-text p {
-  margin-left: 80px;
+  margin-left: 20px;
   text-align: start;
   font-family: Esteban;
   font-size: 18px;
@@ -420,42 +454,47 @@ body {
   color: black;
 }
 
-/*---------------------------------- container-avaliação ------------------------*/
-.titulo-avaliacao {
+/*---------------------------------- avaliação ------------------------*/
+.avaliacao {
   display: flex;
   flex-direction: row;
   color: rgb(0, 0, 0);
-  margin-left: 100px;
 }
 
 .linha-horizontal-3 {
-  margin-left: 20px;
-  margin-bottom: 40px ;
-  width: 400px;
+  margin-bottom: 60px;
+  width: 53%;
   border-bottom: 1px solid rgb(196, 196, 196);
 }
 
-.titulo-avaliacao h1 {
+.avaliacao .titulo-avaliacao{
+  text-align: center;
   font-family: Domine;
-  font-size: 35px;
-  margin-left: -30px;
+  font-size: 10px;
+  height: 70px;
+  width: 350px;
 }
 
-.titulo-avaliacao .text1 {
-  margin-top: 30px;
-  margin-left: 20px;
-  color: rgb(196, 196, 196)
+.container-strela{
+  text-align: start;
+  padding: 10px;
+  width: 250px;
+  height: 30px;
 }
 
-.titulo-avaliacao .text2 {
-  margin-top: 38px;
-  margin-left: 20px;
+.avaliacao .text {
+  margin-top: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  color: rgb(0, 0, 0);
+  font-size: 15px;
+  color: #000000;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  bottom: 25px;
+  text-align: center;
 }
 
-.titulo-avaliacao img {
+.avaliacao img {
   margin-left: 15px;
   font-size: 17px;
 }
@@ -466,10 +505,16 @@ body {
 }
 
 .item span {
-  margin-left: 30%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: row;
-  width: 20px;
+  width: 70%;
+  height: 30px;
+}
+
+.item img {
+  padding: 4px;
 }
 
 .owl-theme .item {
@@ -477,4 +522,149 @@ body {
   background: #fff;
   padding: 10px;
 }
+
+/*----------------- Responsive --------------*/
+@media screen and (max-width: 1140px) {
+  .linha-vertical {
+    display: none;
+  }
+
+  .linha-horizontal-3 {
+    width: 40%;
+  }
+
+  .container-card-detalhes-1{
+    width: 260px;
+    height: 280px;
+    flex-direction: column;
+    
+  }
+  
+  .container-card-detalhes-2{
+    width: 240px;
+    height: 280px;
+    flex-direction: column;
+    
+  }
+
+  .detalhes-img-2 {
+    width: 260px;
+  }
+
+  .container-detalhes {
+    height: 280px;
+  }
+
+  .avaliacao .titulo-avaliacao{
+    width: 230px;
+  }
+
+  .item span {
+    width: 90%;
+  }
+
+  .item img {
+    padding: 5px;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  .item span {
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 852px) {
+  /*------------------------------------ Avaliacao -------------------------------*/
+  .avaliacao { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linha-horizontal-3 {
+    display: none;
+}
+
+.avaliacao .text{
+    right: 120px;
+    top: 25px;
+    bottom: 0px;
+    width: 130px;
+}
+
+.container-strela{
+    width: 220px;
+    position: relative;
+    left: 65px;
+    bottom: 25px;
+}
+
+.avaliacao .titulo-avaliacao{
+    width: 350px;
+    margin-bottom: -80px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container-card-detalhes-1{
+    width: 100%;  
+  }
+  
+  .container-card-detalhes-2{
+    width: 100%;
+  }
+
+  .container-detalhes span {
+    font: normal normal bold 20px/24px Raleway;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .container-detalhes img {
+    width: 65px;
+    height: 65px;
+    margin-top: 0px;
+  }
+
+  .detalhes-img-1 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detalhes-img-2 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detalhes-img-3 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .detalhes-img-4 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (min-width: 1700px) {
+  .linha-horizontal-3 {
+    width: 70%;
+  }
+
+}
+
 

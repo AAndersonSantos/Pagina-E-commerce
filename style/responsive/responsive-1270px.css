@@ -1,0 +1,28 @@
+@media screen and (max-width: 1270px) {
+    .primeiro-titulo {
+        font-size: 17px;
+    }
+
+    .container-card { /*------------------------------------ Container Card -------------------------------*/
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .swiper {
+        margin-left: auto;
+        margin-right: auto;
+    }
+      
+    .mySwiper2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*------------------------------------ container Detalhes -------------------------------*/
+    .container-detalhes {
+        margin-top: 10px;
+    }
+
+}

@@ -4,7 +4,7 @@
         width: 65%;
         height: 90px;
         margin-left: 20%;
-        border-radius: 400px;
+        border-radius: 10px;
     }
 
     .mySwiper2 {
@@ -89,109 +89,14 @@
         margin-left: 20px;
     }
 
-    .container-detalhes { /*------------------------------------ Container Detalhes -------------------------------*/
-        margin-top: 0px;
-        height: 257px;
-    }
-
-    .container-detalhes span {
-        font: normal normal bold 17px/23px Raleway;
-    }
-
-    .container-detalhes .linha-vertical, .linha-vertical2, .linha-vertical3 {
-        display: none;
-    }
-
-    .detalhes-img-1 {
-        margin-top: 25px;
-        margin-left: -5px;
-        text-align: left;
-        padding: 20px;
-    }
-
-    .container-detalhes .sem-glúten {
-        margin-top: 53px;
-        margin-left: 40px;
-    }
-
-    .detalhes-img-2 img {
-        position: absolute;
-        display: block;
-        margin-top: -10px;
-        margin-left: -30px;
-    }
-
-    .container-detalhes .organico {
-        margin-top: 65px;
-        margin-left: 18px;
-    }
-
-    .detalhes-img-3 {
-        position: absolute;
-        margin-left: 0px;
-        margin-top: 10px;
-    }
-
-    .detalhes-img-3 img{
-        margin-left: -13px;
-        margin-top: 125px;
-    }
-
-    .container-detalhes .low-carb {
-        position: absolute;
-        display: block;
-        margin-top: 180px;
-        margin-left: 90px;
-    }
-
-    .detalhes-img-4 {
-        margin-left: 0px;
-        margin-top: 5px;
-        padding: 0px;
-    }
-
-    .detalhes-img-4 img {
-        margin-left: -160px;
-        margin-top: 150px;
-    }
-
-    .container-detalhes .sem-lacteos {
-        position: absolute;
-        display: block;
-        margin-top: 170px;
-        margin-left: 260px;
-    }
-
-    .detalhes-img-5 img {
-        display: block;
-        margin-top: 0px;
-    }
-
-    .linha-horizontal3 {
-        width: 0px;
-    }
-
-    .detalhes-text h1 {
-        margin-left: 10px;
-        text-align: center;
-        font-size: 25px;
-    }
-
-    .detalhes-text p {
-        margin-left: 30px;
-        font-size: 14px;
-    }
-
-    .titulo-avaliacao h1 { /*------------------------------------ Titulo Avaliacao -------------------------------*/
+    /*------------------------------------ Titulo Avaliacao -------------------------------*/
+    .avaliacao h1 { 
         font-size: 18px;
-        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .titulo-avaliacao .text2 {
-        display: none;
-    }
-
-    .titulo-avaliacao img {
+    .avaliacao .text2 {
         display: none;
     }
 

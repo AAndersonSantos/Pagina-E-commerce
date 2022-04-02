@@ -1,43 +1,23 @@
 @media screen and (max-width: 768px) {
 
     .swiper { /*------------------------------------ carrousel -------------------------------*/
-        width: 33%;
-        height: 95px;
-        margin-left: 39%;
-        border-radius: 400px;
+        width: 38%;
+        height: 110px;
+        border-radius: 10px;
     }
 
     .mySwiper2 {
-        height: 60%;
-        width: 60%;
-        margin-left: 25%;
+        height: 70%;
+        width: 70%;
     }
 
-    .container-card { /*------------------------------------ Container Card -------------------------------*/
-        position: static;
-        width: 55%;
-        margin-left: 180px;
-        height: 790px;
-    }
-
-    .card-preco {
-        margin-left: 35px;
-        width: 400px;
-        margin-right: 0;
+     /*------------------------------------ Container Card -------------------------------*/
+    .container-card {
+        width: 90%;
     }
 
     .primeiro-titulo {
-        margin-left: 30px;
         font-size: 20px;
-    }
-
-    .linha-horizontal-1 {
-        display: none;
-    }
-
-    .segundo-titulo {
-        padding-left: 50px;
-        margin-top: 0px;
     }
 
     .desconto {
@@ -46,10 +26,6 @@
 
     .container-btn div label span {
         padding: 15px 25px;
-    }
-
-    .container-button {
-        margin-left: 40px;
     }
 
     .preco-anterior {
@@ -69,119 +45,8 @@
         font-size: 18px;
     }
 
-    .container-cep {
-        height: 135px;
-        width: 400px;
-        margin-left: 40px;
-    }
-
-    .container-cep input {
-        margin-left: 35px;
-    }
-
-    .container-cep a {
-        margin-left: 250px;
-    }
-
-    .container-cep span {
-        margin-left: 40px;
-    }
-
-    .container-detalhes { /*------------------------------------ Container Detalhes -------------------------------*/
-        margin-top: 70px;
-        height: 257px;
-    }
-
-    .container-detalhes .linha-vertical, .linha-vertical2, .linha-vertical3 {
-        display: none;
-    }
-
-    .detalhes-img-1 img {
-        position: absolute;
-        display: block;
-    }
-
-    .container-detalhes .sem-glúten {
-        margin-top: 60px;
-        margin-left: 50px;
-    }
-
-    .detalhes-img-2 img {
-        position: absolute;
-        display: block;
-        margin-left: 150px;
-        text-align: left;
-
-    }
-
-    .container-detalhes .organico {
-        margin-top: 70px;
-        margin-left: 200px;
-    }
-
-    .detalhes-img-3 img {
-        position: absolute;
-        display: block;
-        margin-left: -628px;
-        margin-top: 95px;
-        text-align: left;
-    }
-
-    .container-detalhes .low-carb {
-        position: absolute;
-        display: block;
-        margin-top: 170px;
-        margin-left: 185px;
-    }
-
-    .detalhes-img-4 img {
-        position: relative;
-        display: block;
-        margin-left: -265px;
-        margin-top: 150px;
-    }
-
-    .detalhes-img-4 {
-        margin-left: 0px;
-        margin-top: 5px;
-        padding: 0px;
-    }
-
-    .container-detalhes .sem-lacteos {
-        position: absolute;
-        display: block;
-        margin-top: 180px;
-        margin-left: 565px;
-    }
-
-    .detalhes-img-5 img {
-        display: block;
-    }
-
-    .linha-horizontal-3 {
-        width: 0px;
-    }
-
-    .detalhes-text h1 {
-        margin-left: 10px;
-        text-align: center;
-    }
-
-    .detalhes-text p {
-        margin-left: 30px;
-    }
-
-    .titulo-avaliacao h1 { /*------------------------------------ Titulo Avaliacao -------------------------------*/
-        font-size: 25px;
-        margin-left: -30px;
-    }
-
-    .titulo-avaliacao .text2 {
-        margin-top: 22px;
-    }
-
-    .linha-horizontal-3 {
-        display: none;
+    .item span {
+        width: 45%;
     }
 
 }
