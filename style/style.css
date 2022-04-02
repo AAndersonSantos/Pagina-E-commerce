@@ -302,7 +302,7 @@ body {
 
 .container-cep input {
   width: 240px;
-  height: 37px;
+  height: 35px;
   margin-left: 10px;
   text-align: center;
   font-size: 17px;
@@ -313,7 +313,7 @@ body {
 
 .container-cep button {
   width: 125px;
-  height: 43px;
+  height: 45px;
   margin-left: -60px;
   border-radius: 30px;
   margin-top: 60px;
